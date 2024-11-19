@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un Évènement</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li><img src ="img/300x300 image test.png" alt="Logo Evenearth"></li></a>
+                <a href="events.html"><li>Les Evenements</li></a>
+                <a href="addevent.html"><li>Ajouter un Evenement</li></a>
+                <a href="contact.html"><li>Nous contacter</li></a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Ajouter un Évènement</h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="event_title">Titre de l'évènement:</label>
+            <input type="text" id="event_title" name="event_title" required>
+
+            <label for="event_description">Description de l'évènement:</label>
+            <textarea id="event_description" name="event_description" required></textarea>
+
+            <label for="event_photo">Photo de l'évènement:</label>
+            <input type="file" id="event_photo" name="event_photo" required>
+
+            <label for="event_price">Prix de l'évènement:</label>
+            <input type="text" id="event_price" name="event_price" required>
+
+            <button type="submit">Créer l'évènement</button>
+        </form>
+    </main>
+
+    <footer>
+        <ul>
+            <a href="#"><li>Mentions Légales</li></a>
+            <a href="#"><li>Conditions générales d'utilisation</li></a>
+        </ul>
+    </footer>
+</body>
+</html>
